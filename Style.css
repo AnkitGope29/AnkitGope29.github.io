@@ -1,0 +1,94 @@
+@import 'utilities.css';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+header{
+    background-color:black;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 92%, 0 100%);
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto; 
+} 
+
+header nav .left a{
+    color:cyan;
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform: uppercase; 
+    transition: all.3s ease;  
+}
+header nav .left a:hover{
+    color:blue
+}
+header nav {
+    padding: 2rem 0;
+}
+header nav .logo{
+    margin-right:3rem;
+}
+.RDJ{
+    padding:3rem 0;
+}
+.RDJ .left img{
+width:400px;
+}
+.RDJ .right{
+color:white ;
+}
+.RDJ .right h6{
+    font-size:1.6rem;
+    color:cyan;
+    margin-bottom:0.5rem;
+}
+.RDJ .right h1{
+    font-size:4rem;
+    font-weight:100;
+    line-height:1.2;
+    margin-bottom: 2rem; 
+}
+.RDJ .right h1 span{
+     color: cyan;
+
+}
+.RDJ .right p{
+    line-height:1.9;
+    margin-bottom:2rem;
+}
+.RDJ .right{
+    margin-top:-7rem;
+}
+section{
+    padding:6rem 0;
+}
+section.About .About-Me-Img{
+    height:450px;
+} 
+section.About h1{
+    margin-bottom:1rem;
+    font-size:1.6rem;
+    font-weight:400;
+}    
+section.About h1 span{
+    color:cyan;
+}
+section.About h3{
+    font-size:1rem;
+    margin-bottom:1rem;
+    font-weight:400;
+}
+section.About p{
+    color:gray;
+    line-height: 1.9;
+}
+section.About .social{
+    display:flex;
+}
+section.About .social a{
+background:black ;
+
+}
